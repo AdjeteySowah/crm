@@ -1,0 +1,152 @@
+.business-hero {
+  padding: 146px 0 70px;
+}
+
+.business-hero .display-title {
+  margin-top: 28px;
+  max-width: 725px;
+  font-size: 61px;
+  font-style: italic;
+}
+
+.business-tabs {
+  display: grid;
+  grid-template-columns: 1.1fr 0.82fr 0.86fr;
+  gap: 31px;
+  margin-top: 43px;
+}
+
+.business-tab {
+  min-height: 69px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 0 32px;
+  border-radius: 999px;
+  background: rgba(7, 59, 55, 0.8);
+  color: var(--text);
+  font-weight: 700;
+}
+
+.business-tab span {
+  color: var(--accent);
+  font-family: var(--serif);
+  font-style: italic;
+}
+
+.business-section {
+  padding: 8px 0 0;
+}
+
+.business-main-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 590px) 550px;
+  gap: 56px;
+  align-items: start;
+}
+
+.sect-num__and__aqua-bar {
+  display: flex;
+  align-items: center;
+}
+
+.section-number {
+  color: var(--accent);
+  font-family: var(--serif);
+  font-size: 20px;
+  font-style: italic;
+}
+
+.aqua-bar {
+  width: 184px;
+  height: 42px;
+  margin-left: 40px;
+  border-radius: 999px;
+  box-shadow: 0 6px 15px rgba(34, 199, 193, 0.24);
+}
+
+.business-main-grid .section-title {
+  font-size: 49px;
+  font-style: italic;
+}
+
+.business-main-grid .image-frame {
+  height: 381px;
+}
+
+.business-main-grid .btn {
+  margin-top: 31px;
+}
+
+.scope-cards {
+  margin-top: 102px;
+}
+
+.scope-card {
+  min-height: 401px;
+  padding: 31px 27px;
+}
+
+.scope-card h3 {
+  margin: 25px 0 19px;
+  font-family: var(--serif);
+  font-size: 21px;
+  line-height: 1.22;
+}
+
+.scope-card .info-list {
+  gap: 13px;
+}
+
+.scope-card:nth-of-type(1) .card-icon::before {
+  background-image: url("./assets/images/strength-vector.svg");
+}
+.scope-card:nth-of-type(2) .card-icon::before {
+  background-image: url("./assets/images/strength-vector.svg");
+}
+.scope-card:nth-of-type(3) .card-icon::before {
+  background-image: url("./assets/images/strength-vector.svg");
+}
+
+.business-detail {
+  padding-top: 105px;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: 550px minmax(0, 525px);
+  gap: 118px;
+  align-items: center;
+}
+
+.detail-grid.reverse {
+  grid-template-columns: minmax(0, 560px) 550px;
+  gap: 90px;
+  align-items: center;
+}
+
+.detail-grid .image-frame {
+  height: 381px;
+}
+
+.detail-copy .section-title {
+  font-size: 45px;
+  font-style: italic;
+}
+
+.detail-note {
+  margin-top: 28px;
+  padding: 20px 30px;
+  border-radius: 999px;
+  background: rgba(7, 59, 55, 0.8);
+  color: var(--muted);
+}
+
+.business-cta {
+  padding: 335px 0 0;
+}
+
+#business-cta-title {
+  margin-bottom: 25px;
+}

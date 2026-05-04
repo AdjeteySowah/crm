@@ -1,0 +1,229 @@
+.home-hero {
+  padding: 178px 0 118px;
+}
+
+.home-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 650px) 435px;
+  gap: 95px;
+  align-items: start;
+}
+
+.home-hero .display-title {
+  margin-top: 30px;
+  font-size: 84px;
+  line-height: 1.06;
+}
+
+.home-hero .display-title em {
+  display: block;
+  font-size: 80px;
+}
+
+.home-hero .button-row {
+  margin-top: 34px;
+}
+
+.hero-visual {
+  height: 499px;
+  margin-top: 8px;
+}
+
+.hero-stats {
+  display: grid;
+  grid-template-columns: 235px 205px 160px;
+  gap: 58px;
+  margin-top: 98px;
+}
+
+.hero-stat strong {
+  display: block;
+  color: var(--accent);
+  font-family: var(--serif);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.hero-stat span {
+  display: block;
+  margin-top: 10px;
+  color: var(--text);
+  font-size: 15px;
+}
+
+.feature-strip {
+  border-top: 1px solid var(--line-soft);
+  border-bottom: 1px solid var(--line-soft);
+  background: rgba(10, 61, 57, 0.38);
+  padding: 45px 0 47px;
+}
+
+.home-strengths {
+  padding: 270px 0 86px;
+}
+
+.home-strengths .section-title {
+  max-width: 760px;
+}
+
+.home-strengths .cards-grid {
+  margin-top: 58px;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 42px;
+}
+
+.strength-card {
+  min-height: 314px;
+  padding: 29px 27px 31px;
+}
+
+.strength-card small {
+  color: var(--accent);
+  font-family: var(--serif);
+  font-size: 16px;
+}
+
+.strength-card .card-icon {
+  margin-top: 26px;
+}
+
+.strength-card h3 {
+  margin: 28px 0 15px;
+  font-family: var(--serif);
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+.strength-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 16px;
+}
+
+.home-services {
+  padding: 0 0 108px;
+}
+
+.service-intro {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  align-items: start;
+  gap: 120px;
+}
+
+.service-intro .pill {
+  margin-top: 58px;
+}
+
+.service-intro .section-title {
+  max-width: 660px;
+}
+
+.service-cards {
+  margin-top: 66px;
+}
+
+.service-card {
+  min-height: 274px;
+  padding: 28px 25px 28px;
+}
+
+.service-card .service-number {
+  position: absolute;
+  top: 28px;
+  right: 30px;
+  color: var(--text);
+  font-family: var(--serif);
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 700;
+  opacity: 0.86;
+}
+
+.service-card h3 {
+  margin: 54px 0 12px;
+  font-family: var(--serif);
+  font-size: 20px;
+  line-height: 1.23;
+}
+
+.service-card p {
+  margin: 0 0 19px;
+  color: var(--muted);
+}
+
+.track-section {
+  padding: 0 0 260px;
+}
+
+.track-grid {
+  display: grid;
+  grid-template-columns: 495px minmax(0, 610px);
+  gap: 50px;
+  align-items: start;
+}
+
+.track-image {
+  height: 520px;
+}
+
+.track-copy {
+  padding-top: 2px;
+}
+
+.track-copy .pill {
+  width: 172px;
+  min-height: 40px;
+  margin-bottom: 28px;
+  box-shadow: 0 6px 15px rgba(34, 199, 193, 0.24);
+}
+
+.property-list {
+  display: grid;
+  gap: 24px;
+  margin: 42px 0 33px;
+  padding: 0;
+  list-style: none;
+}
+
+.property-list li {
+  min-height: 103px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  padding: 24px 42px 23px 32px;
+  border-radius: 24px;
+  background: rgba(8, 62, 58, 0.86);
+}
+
+.property-list strong {
+  display: block;
+  color: var(--text);
+  font-size: 16px;
+}
+
+.property-list span {
+  display: block;
+  color: var(--muted-strong);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.property-list .card-icon {
+  width: 35px;
+  height: 35px;
+  background: transparent;
+}
+
+.home-cta {
+  padding: 0 0 90px;
+}

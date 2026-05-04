@@ -1,0 +1,106 @@
+.contact-hero {
+  padding: 146px 0 61px;
+}
+
+.contact-hero .display-title {
+  margin-top: 32px;
+  font-size: 64px;
+  font-style: italic;
+}
+
+.contact-hero .hero-copy {
+  max-width: 600px;
+}
+
+.contact-main {
+  padding-bottom: 248px;
+}
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 780px) 378px;
+  gap: 32px;
+  align-items: start;
+}
+
+.quote-form {
+  min-height: 686px;
+  padding: 36px 30px 58px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 13px 17px;
+}
+
+.field {
+  display: grid;
+  gap: 9px;
+}
+
+.field.full {
+  grid-column: 1 / -1;
+}
+
+.field label {
+  color: var(--text);
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+  border: 1px solid rgba(34, 199, 193, 0.58);
+  border-radius: 7px;
+  background: rgba(0, 31, 29, 0.65);
+  color: var(--text);
+  min-height: 51px;
+  padding: 12px 15px;
+}
+
+.field textarea {
+  min-height: 151px;
+  resize: vertical;
+}
+
+.quote-form .btn {
+  width: 100%;
+  min-height: 64px;
+  margin-top: 50px;
+  font-size: 19px;
+}
+
+.contact-aside {
+  display: grid;
+  gap: 25px;
+}
+
+.aside-card {
+  min-height: 226px;
+  padding: 29px 34px;
+}
+
+.aside-card.compact {
+  min-height: 158px;
+}
+
+.aside-card h2 {
+  margin: 0 0 22px;
+  font-size: 27px;
+  text-transform: uppercase;
+}
+
+.aside-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.contact-cta {
+  padding-bottom: 0;
+}
+
+#contact-cta-title {
+  margin-bottom: 25px;
+}

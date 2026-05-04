@@ -1,0 +1,106 @@
+.company-hero {
+  padding: 146px 0 0;
+}
+
+.company-hero .display-title {
+  margin-top: 26px;
+  max-width: 720px;
+  font-size: 60px;
+  font-style: italic;
+}
+
+.company-hero .hero-copy {
+  max-width: 620px;
+}
+
+.company-info {
+  padding: 99px 0 0;
+}
+
+.content-heading {
+  margin: 0 0 31px;
+  font-family: var(--serif);
+  font-size: 33px;
+  font-style: italic;
+  line-height: 1.1;
+}
+
+.company-table {
+  width: 900px;
+  margin-left: 18px;
+  padding: 32px 138px;
+}
+
+.company-table dl {
+  margin: 0;
+}
+
+.company-table .row {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  gap: 130px;
+  padding: 28px 0 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.company-table dt {
+  color: var(--muted);
+}
+
+.company-table dd {
+  margin: 0;
+  color: var(--text);
+}
+
+.business-summary {
+  padding: 118px 0 269px;
+}
+
+.summary-cards {
+  margin-top: 37px;
+}
+
+.summary-card {
+  min-height: 268px;
+  padding: 30px 25px;
+}
+
+.summary-card .service-number {
+  position: absolute;
+  top: 28px;
+  right: 31px;
+  font-family: var(--serif);
+  font-size: 35px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.summary-card h3 {
+  margin: 27px 0 16px;
+  font-family: var(--serif);
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.summary-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.summary-card:nth-of-type(1) .card-icon::before {
+  background-image: url("./assets/images/strength-vector.svg");
+}
+.summary-card:nth-of-type(2) .card-icon::before {
+  background-image: url("./assets/images/strength-vector.svg");
+}
+.summary-card:nth-of-type(3) .card-icon::before {
+  background-image: url("./assets/images/business-summ-vector-3.svg");
+}
+
+.company-cta {
+  padding-bottom: 0;
+}
+
+#company-cta-title {
+  margin-bottom: 25px;
+}
